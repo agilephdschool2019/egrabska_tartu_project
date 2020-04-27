@@ -12,15 +12,16 @@ output:
 bibliography: samplebib.bib
 ---
 	
+# Visualization
 
-
-## Visualization
 I am still not a fan of using QGIS for producing my maps, but the animations from the time manager are pretty cool!
-<center>
+
+<!--<center>
 ![](gif_Arctic.gif){width=650px}
 </center>
-***
-## Reproducibility
+-->
+
+# Reproducibility
 
 Sentinel-2 imagery is available for free. You can donload them from [ESA SciHub](https://scihub.copernicus.eu/) or [CREODIAS finder](https://finder.creodias.eu/).
 As a reference data I use freely available Forest Data Bank available [here](https://www.bdl.lasy.gov.pl/portal/udostepnianie-en).
@@ -28,7 +29,6 @@ In this database, there are basic units called _subareas_, and for each subarea,
 
 I performed processing in R software using packages: **raster**, **RStoolbox** and **caTools**
 The most important functions were:
-
 
 * [`stack()`](https://www.rdocumentation.org/packages/raster/versions/3.0-7/topics/stack) for reading satellite imagery
 
@@ -39,20 +39,20 @@ The most important functions were:
 * [`superClass()`](https://www.rdocumentation.org/packages/RStoolbox/versions/0.2.6/topics/superClass) for super-vised image classification. 
 
 The results of this study were published in Remote Sensing, you can find the article [here](https://www.mdpi.com/2072-4292/11/10/1197/htm).
-![Resulting map for Baligród Forest District](graphical_abstract.jpg){width=450px}
 
-***
+<!--
+![Resulting map for Baligród Forest District](graphical_abstract.jpg){width=450px}
+-->
+
 
 I really need to make a repository with my scripts, because there are too many of them.
 
+<!--
 ![My folder with R scripts. This is just a small part!!!![](72-512.png){width=30px}](scripts.png){width=450px}
+-->
 
+# Science communication
 
+## Key remarks from my study are:
 
-
-***
-## Science communication
-#### Key remarks from my study are:
-
-* My audience is generally divided into two groups: remote sensing specialists and foresters (forest scientists?). The audience thus determines how I prepare presentations or papers. 
-
+My audience is generally divided into two groups: remote sensing specialists and foresters (forest scientists?). The audience thus determines how I prepare presentations or papers. 
