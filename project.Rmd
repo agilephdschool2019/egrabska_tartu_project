@@ -1,13 +1,18 @@
 ---
 title: "Key takeaways from AGILE PhD School 2019"
-author: "Ewa Grabska"
-date: "28 listopada 2019"
-output: html_document
+author:
+  - name: Ewa Grabska
+    affiliation: Jagiellonian University, Poland
+    email: aweaksbarg@gmail.com
+    orcid: 0000-0000-0000-0000
+abstract: |
+   I performed processing in R software using packages: **raster**, **RStoolbox** and **caTools**
+output:
+  ceurticles::twocolpceurws_article
+bibliography: samplebib.bib
 ---
+	
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Visualization
 I am still not a fan of using QGIS for producing my maps, but the animations from the time manager are pretty cool!
