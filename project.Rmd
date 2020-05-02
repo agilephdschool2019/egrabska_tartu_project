@@ -4,7 +4,6 @@ author:
   - name: Ewa Grabska
     affiliation: Jagiellonian University, Poland
     email: aweaksbarg@gmail.com
-    orcid: 0000-0000-0000-0000
 abstract: |
    I performed processing in R software using packages: **raster**, **RStoolbox** and **caTools**
 output:
